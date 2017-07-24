@@ -1,43 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Lynda - hero of man and woman</title>
-  <link href= "style.css" rel= "stylesheet" type = "text/css">
-  p.rightcolumn {
-    margin: 20px 0 20px 0;
-    border: 1 px powderblue;
-    padding: 75 px;
-  }
+<title>Lynda - hero of man and woman</title>
 </head>
+p.rightcolumn {
+  margin: 20px 0 20px 0;
+  border: 1 px powderblue;
+  padding: 75 px;
+  }
+  
+#col {
+ -moz-column-count: 2;
+ -webkit-column-count: 2;
+ column-count: 2;
+}
 
   
 <body>
 <body style= "background-color:powderblue;">
 <body style = "font-family: Constantia;">
+
+ 
 <h1 style = "font-family: Imprint MT Shadow; font-size:250%">MY PORTFOLIO</h1>
 <p><i>I'm Lynda Pham, a rising senior at Kentwood High School. I love wearing tacky Hawaiian print and eating cupcakes!</i></p>
 
-<h3 style="color:navy; font-size: 150%">About Me</h3>
+<div id= "col">
+  <h3 style="color:navy; font-size: 150%">About Me</h3>
   <ul style = "list-style-type:square">
     <li>I like:</li>
     <ol> <li>When hangouts are  just naps with friends</li> <li>Ben & Jerry's Cherry Garcia</li> <li>Going the wrong way on escalators</li> </ol>
   </ul>
+  
   <ul style = "list-style-type:square">
     <li>I dislike:</li>
     <ol> <li>Frosting</li> <li>Boys that don't text back</li> <li>Tupperware without lids</li> </ol>
   </ul>  
-  
+
+
   <p>Some of my favorite websites include browsing
   <a href="https://www.pinterest.com">Pinterest</a>, online window-shopping at 
     <a href="https://www.madewell.com">Madewell</a>, and playing <a href="https://www.tetrisfriends.com">Tetris</a>.
   </p>
-
+  
+  </div>
  <!--<style>.container {
    position:relative;}
    .bottomleft {
      position:absolute; bottom:10px; left 30px; font-size:20px;}-->
   
-<img src = "wedding.JPG" alt="whoops sorry" width="328" height="400" style="float:right;width:42px;height:42px;>
+<img src = "wedding.JPG" alt="whoops sorry" width="328" height="400" style="float:right;width:328px;height:400px;>
 
   table, th, td {
   border: 1px solid black;
